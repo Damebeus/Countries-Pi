@@ -1,0 +1,28 @@
+.paginado{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    position: relative;
+    background-color : #038482;
+    font-size:30px;
+    width: 100%;
+    margin:0;
+    margin-top: 80px;
+   
+}
+ul{
+    
+    padding: 0;
+}
+.numeritos:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.numeritos{
+ list-style: none;
+ font-size: 25px;
+ margin: 13px 12px 12px 10px;  
+ width: 50px;
+ 
+}

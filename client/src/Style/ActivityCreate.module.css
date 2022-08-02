@@ -1,0 +1,311 @@
+.todo{
+  position: absolute;
+  background-image: url("https://originalmap.es/wp-content/uploads/2020/04/Mapamundi-Vintage-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100%;
+  width: 100%;
+  color: #fbfff8;
+  text-shadow: 0 0 15px #000, 0 0 10px #000, 
+  0 0 8px #000, 0 0 10px #000, 0 0 20px #000,
+   0 0 15px #000, 0 0 7px #000, 0 0 10px #000;
+  display: grid;
+
+  text-align: center;
+}
+
+.logo{
+  
+  position: absolute;
+  height: 80px;
+  right: 0;
+  bottom: 30px;
+ 
+}
+
+.main{
+ 
+  background :linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+ backdrop-filter: blur(10px);
+ -webkit-backdrop-filter: blur(10px);
+ border-radius: 20px;
+    border: 3px solid #04857F;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50vw;
+    min-height: 73vh;
+    margin-left: 25% ;
+    margin-top: 8%;
+    
+  }
+  .item{
+    
+    margin-right: 15px;
+  }
+  .item2{
+    margin-right: 15px;
+    color :#e02e2e;
+
+  }
+  .selected{
+    font-size: 20px;
+    margin: 5px;
+    padding: 3px;
+    border: 3px solid rgb(47, 47, 25);
+    border-radius: 6px;
+    background-color: rgba(12, 12, 12, 0.599);
+    
+    cursor: pointer;
+    color: ivory;
+  }
+  .entry{
+    margin-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    position: relative;
+    
+    
+  }
+  .entry p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin: 0;
+    width: 100%;
+    height: 70px;
+    margin-top: 15px;
+  }
+  .entryN{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    min-width: 15vw;
+    max-width: 15vw;
+ /*    background-color: #365c19; */
+    
+  }
+  .entryD{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 20%;
+    font-size: 20px;
+    min-width: 15vw;
+    max-width: 15vw;
+  /*   background-color: #9fe06e; */
+  }
+  .entryS{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    min-width: 15vw;
+    max-width: 15vw;
+ /*    background-color: #202c17; */
+  }
+  .entryC{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 20%;
+    font-size: 20px;
+    min-width: 15vw;
+    max-width: 15vw;
+  }
+ .parrafo{
+    margin-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+  /*   background-color: #365c19; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+  
+  }
+  .error{
+    margin-top: 20px;
+   position: relative;
+  }
+  .button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 40%;
+  }
+  .send{
+    font-size: 30px;
+  }
+  .send:enabled{
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    margin: 0 auto;
+    background-color: ivory;
+    border: 3px solid #04857F;
+    border-radius: 6px;
+    cursor:pointer;
+
+  }
+  .send:disabled{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    border-radius: 6px;
+    background-color: rgba(112, 112, 112, 0.418);
+  }
+
+  .lineaUno {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: #fff; */
+    height: 15vh;
+  }
+  .lineaDos {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   /*  background-color: rgb(88, 38, 38); */
+    height: 15vh;
+    /* border-bottom:  #04857F 3px solid ; */
+  }
+  .difficulty{
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+  /*   background-color: rgb(195, 100, 100); */
+    height: 80px;
+/*     border-top: #04857F 3px solid;
+    border-bottom:  #04857F 3px solid ; */
+  }
+  .titulin h1{
+    color: #04857F;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3em;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 42%;
+    
+  }
+
+ .activ{
+  background :linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+     border: 3px solid #04857F;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     width: 50vw;
+     min-height: 73vh;
+     margin-left: 25% ;
+     margin-top: 8%;
+     
+ } 
+
+  .mas{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 36vh;
+    font-weight: 300px;
+    font-size: 30px;
+    color: rgb(218, 213, 213);
+    letter-spacing: 1px;
+    border: none;
+  }
+  .buttonContainer1{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 75vw;
+   
+    font-weight: 300px;
+    font-size: 30px;
+    color: rgb(46, 44, 44);
+    letter-spacing: 1px;
+    border: none;
+  }
+  
+  .buttonContainer1 button {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 35vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    background: #000;
+    -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+    mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+    -webkit-mask-size: 2300% 100%;
+    mask-size: 2300% 100%;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    -webkit-animation: ani2 0.7s steps(22) forwards;
+    animation: ani2 0.7s steps(22) forwards;
+    border-radius: 5px;
+    }
+    .buttonContainer1 button:hover {
+    -webkit-animation: ani 0.7s steps(22) forwards;
+    animation: ani 0.7s steps(22) forwards;
+    
+    }
+    @keyframes ani {
+    from {
+      -webkit-mask-position: 0 0;
+      mask-position: 0 0;
+    }
+    to {
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
+    }
+    }
+    @-webkit-keyframes ani {
+    from {
+      -webkit-mask-position: 0 0;
+      mask-position: 0 0;
+    }
+    to {
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
+    }
+    }
+    @-webkit-keyframes ani2 {
+    from {
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
+    }
+    to {
+      -webkit-mask-position: 0 0;
+      mask-position: 0 0;
+    }
+    }
+    @keyframes ani2 {
+    from {
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
+    }
+    to {
+      -webkit-mask-position: 0 0;
+      mask-position: 0 0;
+    }
+    }
+  

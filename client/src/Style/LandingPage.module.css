@@ -1,0 +1,103 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-image: url("https://i.pinimg.com/originals/52/b6/e2/52b6e237bf1155a8109ead35b2b808d5.jpg");
+}
+
+.titulo{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35%;
+  margin-top: 30%;
+ 
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.8rem;
+  text-shadow: 1px 2px #000;
+  color: rgb(255, 255, 255);
+ 
+  width: 30vw;
+  height: 10vh;
+
+  letter-spacing: 5px;
+/*   text-shadow: red 0 0, cyan 0 0; */
+  transition: text-shadow 200ms;
+
+
+  backdrop-filter: blur(5px);
+  
+}
+
+ .boton{
+  position: relative;
+  font-size: 25px;
+  margin-top: 5%;
+  width: 8vw;
+  height: 5vh;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+ /*  background-color: rgb(47, 177, 134); */
+ background-image: url("https://img.freepik.com/vector-gratis/hierba-textura-fluida-patron-cesped-natural_172107-1308.jpg?w=2000");
+ background-size: cover;
+  cursor: pointer;
+  transition: .5s;
+  overflow: hidden;
+}
+.boton:hover{
+  color: rgb(66, 70, 73);
+  
+}
+.boton span{
+  position: absolute;
+  background: #fff;
+
+  transition: 0.5s;
+}
+.boton span:nth-child(1){
+  width: 100%;
+  height: 3px;
+  top: 0;
+  left: -100%;
+}
+.boton span:nth-child(2){
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  right: -100%;
+}
+
+.boton span:nth-child(3){
+  width: 3px;
+  height: 100%;
+  bottom: -100%;
+  left: 0;
+}
+.boton span:nth-child(4){
+  width: 3px;
+  height: 100%;
+  top: -100%;
+  right: 0;
+}
+
+.boton:hover span:nth-child(1){
+  left: 0;
+
+}
+.boton:hover span:nth-child(2){
+  right: 0;
+
+}
+
+.boton:hover span:nth-child(3){
+  bottom: 0;
+
+}
+
+.boton:hover span:nth-child(4){
+  top: 0;
+
+}

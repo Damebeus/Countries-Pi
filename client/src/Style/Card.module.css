@@ -1,0 +1,51 @@
+.cards{
+ background :linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+ backdrop-filter: blur(10px);
+ -webkit-backdrop-filter: blur(10px);
+ border-radius: 20px;
+ border: 1px solid rgba(255,255,255,0.18);
+ box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37); ;
+ width: 70%;
+
+ margin-top: 5px;
+	margin-bottom: 30px;
+	margin-left: 18%;
+	margin-right: 5px;
+
+ border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
+    height: 500px;
+    width: 350px;
+}
+.cards:hover{
+    transform: scale(1.1);
+    
+}
+.imagen{
+    position: relative;
+    top: 50px;
+ 
+}
+.info{
+    position: relative;
+    top: 100px;
+}
+.cards p{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.472);
+}
+.name{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.472);
+    position: relative;
+    top: 20px;
+}

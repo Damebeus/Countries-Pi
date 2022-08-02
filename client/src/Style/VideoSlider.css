@@ -1,0 +1,49 @@
+.content{
+    height: 550px;
+    width: 55%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+
+}
+.content .video{
+    height: 100%;
+    width: 100%;
+}
+.btmSliders{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    display: flex;
+    transform: translateX(-50%);
+}
+.btmSliders span{
+    width: 50px;
+    height: 20px;
+    border: 2px solid white;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.content .slide{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    border: 2px solid white;
+    background-color: rgba(255,255,255,0.3);
+    cursor: pointer;
+}
+
+.content .slide:hover{
+    background-color: rgba(255,255,255,0.5);
+} 
+.slide span{
+    font-size: 35px;
+    color: aliceblue;
+    line-height: 41px
+ 
+}
+.content .right{
+    right: 0;
+}
