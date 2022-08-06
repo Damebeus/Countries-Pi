@@ -11,16 +11,12 @@
   justify-content: center;
   align-items: center;
   margin-left: 35%;
-  margin-top: 30%;
- 
+  margin-top: 25%;
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 1.8rem;
   text-shadow: 1px 2px #000;
   color: rgb(255, 255, 255);
- 
-  width: 30vw;
-  height: 10vh;
-
+  max-width: 30%;
   letter-spacing: 5px;
 /*   text-shadow: red 0 0, cyan 0 0; */
   transition: text-shadow 200ms;
@@ -34,8 +30,8 @@
   position: relative;
   font-size: 25px;
   margin-top: 5%;
-  width: 8vw;
-  height: 5vh;
+  width: 15%;
+  
   padding: 10px 15px;
   border: none;
   border-radius: 10px;
